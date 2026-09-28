@@ -1,0 +1,18 @@
+{
+  "name": "chimez-eli",
+  "version": "3.0.0",
+  "description": "CHIMEZ ELI WhatsApp bot controlled by Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.23",
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.67.0",
+    "pino": "^9.6.0"
+  }
+}
